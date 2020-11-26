@@ -1,0 +1,1 @@
+cmd_/home/ashish/dev/kernelMod/build/test.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/ashish/dev/kernelMod/build/test.ko /home/ashish/dev/kernelMod/build/test.o /home/ashish/dev/kernelMod/build/test.mod.o;  true
